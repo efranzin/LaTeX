@@ -90,4 +90,4 @@ FUNCTION {format.bvolume}
 
 - Added the line `format.title "title" output.check` in the `incollection` and `inproceedings` functions
 
-- Changed the line `"\providecommand{\eprint}[2][]{\url{#2}}"` into `"\providecommand{\eprint}[2][]{\href{http://arxiv.org/abs/#2}{\ttfamily #2}}"` in the `begin.bib` function
+- Changed the line `"\providecommand{\eprint}[2][]{\url{#2}}"` into `"\providecommand{\eprint}[2][]{\href{https://arxiv.org/abs/#2}{\ttfamily #2}}"` in the `begin.bib` function
